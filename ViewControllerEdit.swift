@@ -42,6 +42,10 @@ class ViewControllerEdit: UIViewController {
         let x = ListItem(name: NameEdit.text! , describe: DescriptionEdit.text!, date: DateEdit.text!)
         
         sharedBucketList.addToBuckList(item: x)
+        sharedBucketList.count = sharedBucketList.count+1
+        
+        allNames.addToNameList(item: NameEdit.text!)
+        allDates.addToDateList(item: DateEdit.text!)
         
     }
 

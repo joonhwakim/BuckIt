@@ -21,4 +21,6 @@ class BucketList: NSObject {
     func addToBuckList(item: ListItem) {
         self.buckList.append(item)
     }
+    
+    var count: Int = 0
 }

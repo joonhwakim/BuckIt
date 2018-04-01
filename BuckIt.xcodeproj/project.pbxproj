@@ -10,6 +10,9 @@
 		F319B5782070638800882AC8 /* ViewControllerEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319B5772070638800882AC8 /* ViewControllerEdit.swift */; };
 		F319B57A20708D8F00882AC8 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319B57920708D8F00882AC8 /* BucketList.swift */; };
 		F319B57C2070910100882AC8 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319B57B2070910100882AC8 /* ListItem.swift */; };
+		F319B57E2070A79800882AC8 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319B57D2070A79800882AC8 /* ItemTableViewCell.swift */; };
+		F319B5802070B38E00882AC8 /* NamesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319B57F2070B38E00882AC8 /* NamesList.swift */; };
+		F319B5822070B39D00882AC8 /* DatesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319B5812070B39D00882AC8 /* DatesList.swift */; };
 		F31A8D4D20705B830021406F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A8D4C20705B830021406F /* AppDelegate.swift */; };
 		F31A8D4F20705B830021406F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A8D4E20705B830021406F /* ViewController.swift */; };
 		F31A8D5220705B830021406F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31A8D5020705B830021406F /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 		F319B5772070638800882AC8 /* ViewControllerEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerEdit.swift; path = ../ViewControllerEdit.swift; sourceTree = "<group>"; };
 		F319B57920708D8F00882AC8 /* BucketList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		F319B57B2070910100882AC8 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		F319B57D2070A79800882AC8 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemTableViewCell.swift; path = ../ItemTableViewCell.swift; sourceTree = "<group>"; };
+		F319B57F2070B38E00882AC8 /* NamesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesList.swift; sourceTree = "<group>"; };
+		F319B5812070B39D00882AC8 /* DatesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesList.swift; sourceTree = "<group>"; };
 		F31A8D4920705B830021406F /* BuckIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31A8D4C20705B830021406F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F31A8D4E20705B830021406F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +111,8 @@
 			children = (
 				F31A8D4C20705B830021406F /* AppDelegate.swift */,
 				F31A8D4E20705B830021406F /* ViewController.swift */,
+				F319B57F2070B38E00882AC8 /* NamesList.swift */,
+				F319B5812070B39D00882AC8 /* DatesList.swift */,
 				F319B5772070638800882AC8 /* ViewControllerEdit.swift */,
 				F31A8D5020705B830021406F /* Main.storyboard */,
 				F31A8D5320705B830021406F /* Assets.xcassets */,
@@ -112,6 +120,7 @@
 				F31A8D5820705B830021406F /* Info.plist */,
 				F319B57920708D8F00882AC8 /* BucketList.swift */,
 				F319B57B2070910100882AC8 /* ListItem.swift */,
+				F319B57D2070A79800882AC8 /* ItemTableViewCell.swift */,
 			);
 			path = BuckIt;
 			sourceTree = "<group>";
@@ -270,9 +279,12 @@
 			files = (
 				F319B57C2070910100882AC8 /* ListItem.swift in Sources */,
 				F31A8D4F20705B830021406F /* ViewController.swift in Sources */,
+				F319B5802070B38E00882AC8 /* NamesList.swift in Sources */,
 				F319B57A20708D8F00882AC8 /* BucketList.swift in Sources */,
 				F31A8D4D20705B830021406F /* AppDelegate.swift in Sources */,
+				F319B57E2070A79800882AC8 /* ItemTableViewCell.swift in Sources */,
 				F319B5782070638800882AC8 /* ViewControllerEdit.swift in Sources */,
+				F319B5822070B39D00882AC8 /* DatesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
